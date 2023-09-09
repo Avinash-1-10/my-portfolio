@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    /* background: linear-gradient(to right, #3b82f6, #7233f2, #1d4ed8); */
+    color: black;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+
+.active{
+    background-image: linear-gradient(to right, #3b82f6, #7233f2, #1d4ed8);
+    font-weight: bold;
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari/WebKit browsers */
+    color: transparent;
+}
