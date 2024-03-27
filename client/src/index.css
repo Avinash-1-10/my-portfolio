@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+    .active {
+        background: linear-gradient(to bottom, #5498F7, #2F6EED);
+        border: 1px solid #4484F2;
+        border-radius: 10%;
+        padding: 3px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+      }

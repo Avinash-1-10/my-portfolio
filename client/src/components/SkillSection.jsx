@@ -10,7 +10,7 @@ import {
   FaCode,
   FaEthereum,
 } from "react-icons/fa";
-import { SiExpress,SiNextdotjs,SiSolidity,SiTypescript } from "react-icons/si";
+import { SiExpress,SiNextdotjs,SiSolidity,SiTypescript,SiPostman } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { motion } from "framer-motion";
 
@@ -42,8 +42,7 @@ const SkillSection = () => {
         <SkillIcon icon={<FaEthereum />} title="Ethereum" color="#627EEA" />
         <SkillIcon icon={<FaGit />} title="Git" color="#F05032" />
         <SkillIcon icon={<FaCode />} title="VSCode" color="#007ACC" />
-        
-        
+        <SkillIcon icon={<SiPostman />} title="Postman" color="#EF5723" />
       </div>
     </div>
   );
